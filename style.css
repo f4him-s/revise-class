@@ -1,3 +1,13 @@
+*{
+font-family: 'Raleway';
+
+}
+p{
+    font-weight:400;
+}
+h2{
+    font-weight: 700;
+}
 .bgimg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/PXL_20231002_075059904.jpg);
     height: 550px;
@@ -15,11 +25,10 @@
     color: white;
 }
 .heroText h2{
-    font-family: 'Raleway', sans-serif;
     font-size: 48px;
 }
 .heroText p{
-    font-family: 'Raleway';
+
     font-weight: 400;
     font-size: 24px;
 }
@@ -27,5 +36,35 @@
     padding: 10px 50px;
     border-radius: 10px;
     background-color:coral;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
     
+}
+.trainList h2{
+    color:lightseagreen;
+
+}
+.trainList{
+    margin-top: 40px;
+    overflow: hidden;
+}
+.rajshahi{
+ display: inline-block;
+ float: left;
+ margin-left: 70px;
+
+}
+.dhaka{
+    display: inline-block;
+    float: right;
+    margin-right:70px
+}
+.image{
+    height: auto;
+}
+.history{
+    max-width: 33%;
+    position: absolute;
+    left: 33%;
 }
